@@ -4,7 +4,7 @@ This is the implementation of 6 image filters, including Box Filter, Median Filt
 The experiments have been done on GTX970.
 
 
-| Filtering Method  |  Speed on CPU (ms) | Speen on GPU (ms) | Image Resolution |
+| Filtering Method  |  Speed on CPU (ms) | Speed on GPU (ms) | Image Resolution |
 | :---:             | :---: | :---: | :---: |
 | Box Filter        | 3.26 | 0.93 | 690*298 |
 | Gaussian Filter   | 3.17 | 0.95 | 690*298 |
