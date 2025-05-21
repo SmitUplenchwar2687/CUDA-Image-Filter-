@@ -1,7 +1,7 @@
 # Image Filtering using CUDA
 
 This is the implementation of 6 image filters, including Box Filter, Median Filter, Sobel Filter, Laplacian Filter, Sharpenning Filter and TV Filter using CUDA on GPU. I also implemented these filters using C++ and OpenCV to measure the speed up that can be achieved using GPU over CPU. The following table shows the results. It can be seen from the results that on average we can get 3.3 faster processing on GPU.
-The experiments have been done on GTX970.
+The experiments have been done on GTX 1070.
 
 
 | Filtering Method  |  Speed on CPU (ms) | Speed on GPU (ms) | Image Resolution |
